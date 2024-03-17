@@ -1,0 +1,40 @@
+body {
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color: #5b7745;
+    color: white;
+  }
+
+  h1,h2 {
+    color:#febd2e ;
+  }
+
+  .NewCityCommercialBuilding{
+    color: #fb6c55;
+  }
+
+  .NewCityCommercialBuilding:hover {
+    text-shadow: 1px 1px 3px #3c4e2f;
+}
+
+.footer{
+    color: white;
+    margin: 0%;
+  }
+
+
+  .float-end a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .float-end:hover {
+    color: #febd2e;
+  }
+
+  h3{
+    color: #febd2e;
+    font-size: larger;
+  }
