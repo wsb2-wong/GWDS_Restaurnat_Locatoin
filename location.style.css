@@ -1,52 +1,53 @@
-body {
-  margin-left: 8%;
-  margin-right: 8%;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  background-color: #5b7745;
-  color: white;
-}
+  body {
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color: #5b7745;
+    color: white;
+  }
 
-h1,h2,h3 {
-  color:#febd2e ;
-  font-family: "cooper-black-std", serif;
-  font-weight: 400;
-  font-style: normal;
-}
+  h1,h2,h3 {
+    color:#febd2e ;
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-ul {
-  list-style: none;
-}
-
-
-p, .NewCityCommercialBuilding, .nav-link{
-  font-family: "baileywick-jf-gothic", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.NewCityCommercialBuilding{
-  color: #fb6c55;
-}
-
-.NewCityCommercialBuilding:hover {
-  text-shadow: 1px 1px 3px #3c4e2f;
-}
-
-.footer{
-  color: white;
-  margin: 0%;
-}
+  ul {
+    list-style: none;
+  }
 
 
-.float-end a {
-  color: white;
-  text-decoration: none;
-}
+  p, .NewCityCommercialBuilding, .nav-link{
+    font-family: "baileywick-jf-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-.float-end:hover {
-  color: #febd2e;
-}
+  .NewCityCommercialBuilding{
+    color: #fb6c55;
+  }
+
+  .NewCityCommercialBuilding:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .footer{
+    color: white;
+    margin: 0%;
+  }
+
+
+  .float-end a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .float-end:hover {
+    color: #febd2e;
+  }
+  
   h3{
     color: #febd2e;
     font-size: larger;
@@ -70,10 +71,20 @@ p, .NewCityCommercialBuilding, .nav-link{
   }
   
 
+  nav .navbar-brand img {
+    width: 70px; /* Adjust the width as needed */
+    height: 70px; /* Adjust the height as needed */
+  }
+  
+  @media (max-width: 576px) {
+    nav .navbar-brand img {
+      width: 70px; /* Keep the original width */
+      height: 70px; /* Keep the original height */
+    }
+  }
 
 @media (max-width: 576px) {
-  .navbar-brand img {
-    width: 10%; /* Adjust the width as needed */
-    height: 5%
+  .navbar-brand2 img {
+    width: 50%; /* Adjust the width as needed */
   }
 }
