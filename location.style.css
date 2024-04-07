@@ -7,7 +7,41 @@
     color: white;
   }
 
-  h1,h2,h3 {
+  .navbar-brand :hover{
+    transform: scale(1.1);
+    cursor: grab;
+    }
+
+    .navbar-brand2 .img {
+      transition: transform 1s ease;
+    }
+    
+    .navbar-brand2 img:hover {
+      transform: scale(1.1);
+    }
+
+    .text:hover , .title:hover{
+      text-shadow: 2px 2px 4px  #38452ed5;
+      cursor: pointer;
+    }
+
+    .nav-item a{
+      color: white;
+    }
+  
+    .nav-item a:hover{
+      color: white;
+    }
+  
+    .nav-item:hover{
+      color: white;
+      text-shadow: 2px 2px 4px  #38452ed5;
+      cursor: pointer;
+    }
+
+
+  h1,h2,h3,
+  .nav-item{
     color:#febd2e ;
     font-family: "cooper-black-std", serif;
     font-weight: 400;
@@ -19,7 +53,7 @@
   }
 
 
-  p, .NewCityCommercialBuilding, .nav-link{
+  p, .NewCityCommercialBuilding, .nav-link, .nav .nav-item a{
     font-family: "baileywick-jf-gothic", sans-serif;
     font-weight: 400;
     font-style: normal;
